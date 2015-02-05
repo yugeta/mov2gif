@@ -1,0 +1,20 @@
+<div class="row-fluid">
+	<div class="naver-inner page-contents">
+		<form name="form1" method="post" enctype="multipart/form-data" action="<!--%class:libUrl:getUrl%-->?html=<!--%request:html%-->&php=upload">
+			<input type="hidden" name="MAX_FILE_SIZE" value="5000000" />
+			
+			<div class="upload-contents">
+				<div class="upload-button">
+					<input type="file" name="upload_file" class="upload-form">
+					<div class="upload-title">ファイルを選択</div>
+					<div class="upload-value"></div>
+				</div>
+				<input type="button" value="Upload" class="btn btn-default upload-submit">
+			</div>
+			
+		</form>
+	</div>
+</div>
+
+<link href="prg/css/upload.css" rel="stylesheet" />
+<script src="<!--%class:libUrl:getDir%-->prg/js/upload.js"></script>

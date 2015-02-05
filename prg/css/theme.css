@@ -1,0 +1,27 @@
+html,body{
+	height:100%;
+}
+
+div.navbar,div.navbar-inverse,div.navbar-dash{
+	margin-bottom:0 !important;
+}
+
+/*index*/
+.index-word{
+	max-width:1200px;
+	margin:0 auto;
+	position:absolute;
+	
+	top:30px;
+	left:30px;
+	font-weight:bold;
+	font-size:16px;
+	color:white;
+	line-height:30px;
+	
+}
+/*index*/
+
+
+
+

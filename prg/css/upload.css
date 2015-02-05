@@ -1,0 +1,46 @@
+.page-contents{
+	margin:0;
+	height:100%;
+	min-height:300px;
+	padding:20px 20px 20px 20px;
+	background-image:url("../img/motorbike-407186_1280.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:left top;
+	background-attachment:fixed;
+	/*border:1px solid red;*/
+}
+.upload-contents{
+	margin:20px auto;
+	text-align:center;
+}
+.upload-button{
+	display:inline-block;
+	position:relative;
+	overflow:hidden;
+	border-radius:4px;
+	background:#099;
+	color:#fff;
+	text-align:center;
+	padding:10px;
+	line-height:20px;
+	min-width:180px;
+	cursor:pointer;
+	vertical-align:middle;
+	font-size:16px;
+}
+.upload-button:hover{
+	background:#0aa;
+}
+.upload-button .upload-value{
+	/*display:none;*/
+	/*background:rgba(255,255,255,0.2);*/
+	/*border-radius:3px;*/
+	/*padding:3px;*/
+	color:#ffffff;
+	
+}
+.upload-button .upload-form{
+	position:absolute;
+	top:-100px;
+}
