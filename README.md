@@ -1,7 +1,7 @@
 
 # mov2gif
 - write by geta@gmail.com
-- from : 2015.2.5
+- from : 2015.02.05
 - site : http://wordpress.ideacompo.com/
 
 * Summery
@@ -19,3 +19,10 @@
 
 * Specification
 - upload-size:5MB
+
+* Change-log
+
+- 2015.02.07
+-- add   @ GoogleAnalytics
+-- issue @ Top-page Banner-path-broken
+
